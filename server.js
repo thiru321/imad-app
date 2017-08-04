@@ -39,10 +39,10 @@ var htmlTemplate = `
             S{heading}
         </h3>
         <div>
-            ${date}
+            se5 5, 2016
         </div>
         <div>
-           ${content}
+            This is the content for my first article.
         </div>
         </div>
     </body>

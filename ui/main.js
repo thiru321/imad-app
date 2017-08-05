@@ -20,6 +20,7 @@ button.onclick = function () {
     };
     
     // make the request
-    request.open('GET',)
+    request.open('GET','http://kdinacse.imad.hasura-app.io/counter',true);
+    request.send(null);
     
 };

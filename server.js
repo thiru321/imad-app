@@ -69,7 +69,7 @@ app.get('/counter', function (req,res){
     counter = counter + 1;
     res.send(counter.toString());
 });
-app.get('/:articleName', function (req,res){
+app.get('/Article-one', function (req,res){
     res.send(createTemplate(ArticleOne));
 });
 app.get('/Article-two', function (req,res){

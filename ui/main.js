@@ -46,7 +46,6 @@ submit.onclick = function () {
                 }
                 var ul = document.getElementById('namelist');
                 ul.innerHTML = list;
-             
      
           }
       }
@@ -54,6 +53,6 @@ submit.onclick = function () {
     //make a request to the server and send the name.
     
  // make the request
-    request.open('GET','http://kdinacse.imad.hasura-app.io/sumbit-name?name=' + name,true);
+    request.open('GET','http://kdinacse.imad.hasura-app.io/submit-name?name=' + name,true);
     request.send(null);
 };

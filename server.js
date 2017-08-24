@@ -8,8 +8,8 @@ var config = {
     database: '	kdinacse',
     host: 'db.imad.hasura-app.io',
     port: '5432',
-    password: process.env.DB_PASSWORD
-}
+    password: db-kdinacse-80672
+};
 var app = express();
 app.use(morgan('combined'));
 
